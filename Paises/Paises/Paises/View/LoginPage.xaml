@@ -6,14 +6,10 @@
              Title="Paises">
     <ContentPage.Content>
 
-        <ScrollView>
+        <ScrollView
+            BindingContext="{Binding Login, Mode=TwoWay}">
             <StackLayout
                 Padding="5">
-                <!--<Label 
-                    Text="Paises" 
-                    FontSize="Medium"
-                    FontAttributes="Bold"
-                    HorizontalOptions="Center"/>-->
 
                 <Image
                     Source="Onu"
@@ -38,6 +34,7 @@
                         Grid.Row="0"
                         Grid.Column="1"
                         Placeholder="Introduzca su E-Mail..."
+                        Text="{Binding Email, Mode=TwoWay}"
                         Keyboard="Email"/>
 
                     <Label
@@ -50,11 +47,13 @@
                         Grid.Row="1"
                         Grid.Column="1"
                         Placeholder="Introduzca su Contraseña..."
+                        Text="{Binding Password, Mode=TwoWay}"
                         IsPassword="True"/>
                 </Grid>
 
                 <ActivityIndicator
-                    VerticalOptions="CenterAndExpand"/>
+                    VerticalOptions="CenterAndExpand"
+                    IsRunning="{Binding IsRunning, Mode=TwoWay}"/>
                 
                 <StackLayout
                     Margin="10,0"
@@ -67,7 +66,8 @@
                         Text="Recordar este usuario?">
                     </Label>
 
-                    <Switch>
+                    <Switch
+                        IsToggled="{Binding IsRememberd, Mode=TwoWay}">
                     </Switch>
                 </StackLayout>
 
@@ -90,7 +90,8 @@
                         HeightRequest="46"
                         BackgroundColor="Navy"
                         HorizontalOptions="FillAndExpand"
-                        TextColor="White"/>
+                        TextColor="White"
+                        Command="{Binding Entrat}"/>
 
                     <Button
                         Text="Regist.."
@@ -98,7 +99,8 @@
                         HeightRequest="46"
                         HorizontalOptions="FillAndExpand"
                         BackgroundColor="Purple"
-                        TextColor="White"/>
+                        TextColor="White"
+                        Command="{Binding Register}"/>
                 </StackLayout>
 
                 <StackLayout
