@@ -7,7 +7,7 @@
     <ContentPage.Content>
 
         <ScrollView
-            BindingContext="{Binding Login, Mode=TwoWay}">
+            BindingContext="{Binding Login}">
             <StackLayout
                 Padding="5">
 
@@ -85,13 +85,14 @@
                     VerticalOptions="CenterAndExpand">
                 
                     <Button
-                        Text="Entrat"
+                        Text="Entrar"
                         BorderRadius="23"
                         HeightRequest="46"
                         BackgroundColor="Navy"
                         HorizontalOptions="FillAndExpand"
                         TextColor="White"
-                        Command="{Binding Entrat}"/>
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+                        Command="{Binding EntrarCommand}"/>
 
                     <Button
                         Text="Regist.."
@@ -100,7 +101,8 @@
                         HorizontalOptions="FillAndExpand"
                         BackgroundColor="Purple"
                         TextColor="White"
-                        Command="{Binding Register}"/>
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+                        Command="{Binding RegisterCommand}"/>
                 </StackLayout>
 
                 <StackLayout

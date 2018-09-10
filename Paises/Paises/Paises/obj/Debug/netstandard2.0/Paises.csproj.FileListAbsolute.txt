@@ -1,7 +1,6 @@
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\bin\Debug\netstandard2.0\Paises.deps.json
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\bin\Debug\netstandard2.0\Paises.dll
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\bin\Debug\netstandard2.0\Paises.pdb
-D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.csprojAssemblyReference.cache
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\LoginPage.xaml.g.cs
@@ -11,3 +10,4 @@ D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Pai
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\XamlC.stamp
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.dll
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.pdb
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.csprojAssemblyReference.cache

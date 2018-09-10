@@ -4,8 +4,10 @@
              xmlns:Infra="clr-namespace:Paises.Infraestructure"
              x:Class="Paises.App">
 	<Application.Resources>
+        
         <ResourceDictionary>
             <Infra:InstasnsLocator x:Key="Locator"/>
         </ResourceDictionary>
+        
 	</Application.Resources>
 </Application>
