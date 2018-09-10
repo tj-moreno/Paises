@@ -2,7 +2,7 @@
 namespace Paises.ViewModels
 {
     using GalaSoft.MvvmLight.Command;
-    using System.ComponentModel;
+    using Paises.View;
     using System.Windows.Input;
     using Xamarin.Forms;
 
@@ -94,11 +94,11 @@ namespace Paises.ViewModels
             this.IsRunning = false;
             this.IsEnabled = true;
 
-            await Application.Current.MainPage.DisplayAlert(
-                    "Login",
-                    "Listo.....",
-                    "Ok"
-                    );
+            this.Email = string.Empty;
+            this.Password = string.Empty;
+
+            MainViewModel.GetInstance().Pais = new PaisesViewModel();
+            await Application.Current.MainPage.Navigation.PushAsync(new PaisesPage());
         }
 
         public ICommand RegisterCommand { get; set; }
@@ -109,6 +109,7 @@ namespace Paises.ViewModels
         {
             this.IsRememberd = true;
             this.Email = "alfonso125@gmail.com";
+            this.Password = "1234";
         }
         #endregion
     }
