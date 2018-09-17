@@ -37,16 +37,16 @@ namespace Paises.Models
         public int Population { get; set; }
 
         [JsonProperty(PropertyName = "latlng")]
-        public List<int> Latlng { get; set; }
+        public List<double> Latlng { get; set; }
 
         [JsonProperty(PropertyName = "demonym")]
         public string demonym { get; set; }
 
         [JsonProperty(PropertyName = "area")]
-        public int Area { get; set; }
+        public double? Area { get; set; }
 
         [JsonProperty(PropertyName = "gini")]
-        public double Gini { get; set; }
+        public double? Gini { get; set; }
 
         [JsonProperty(PropertyName = "timezones")]
         public List<string> Timezones { get; set; }
@@ -75,7 +75,7 @@ namespace Paises.Models
         [JsonProperty(PropertyName = "regionalBlocs")]
         public List<RegionalBloc> RegionalBlocs { get; set; }
 
-        [JsonProperty(PropertyName = "Cioc")]
-        public string cioc { get; set; }
+        [JsonProperty(PropertyName = "cioc")]
+        public string Cioc { get; set; }
     }
 }
