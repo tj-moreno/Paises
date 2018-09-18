@@ -10,12 +10,12 @@
             BindingContext="{Binding Login}">
             <StackLayout
                 Padding="5">
-
+                
                 <Image
                     Source="Onu"
                     HeightRequest="200">
                 </Image>
-
+                
                 <Grid
                     Margin="10,0"
                     VerticalOptions="CenterAndExpand">
