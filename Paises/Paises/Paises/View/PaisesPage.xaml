@@ -3,51 +3,64 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Paises.View.PaisesPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             BackgroundColor="Silver"
              Title="Paises">
     <ContentPage.Content>
         <StackLayout
-            BindingContext="{Binding Pais}"
-            Padding="5">
+            BindingContext="{Binding Paises}">
             <SearchBar
                 Text="{Binding Search, Mode=TwoWay}"
                 Placeholder="Buscar..."
+                BackgroundColor="Silver"
                 SearchCommand="{Binding SearchCommand}">
             </SearchBar>
-
-            <ListView                                
+            
+            <ListView       
+                BackgroundColor="Silver"
                 HasUnevenRows="True"
                 IsPullToRefreshEnabled="True"
                 IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}"
                 ItemsSource="{Binding Paises}"
+                SeparatorVisibility="None"
                 RefreshCommand="{Binding RefreshCommand}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                </Grid.ColumnDefinitions>
-                                <StackLayout
+                            <Frame
+                                CornerRadius="20"
+                                HasShadow="True"
+                                Margin="5">
+
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding SelectPaisComand}"/>
+                                </Frame.GestureRecognizers>
+                                
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout
                                     Grid.Column="0"
                                     VerticalOptions="Center">
-                                    <Label
+                                        <Label
                                         FontAttributes="Bold"
                                         FontSize="Medium"
                                         Text="{Binding Name}"
                                         TextColor="Black">
-                                    </Label>
-                                    <Label
+                                        </Label>
+                                        <Label
                                         Text="{Binding Capital}"
                                         TextColor="Black">
-                                    </Label>
-                                </StackLayout>
-                                <Image
+                                        </Label>
+                                    </StackLayout>
+                                    <Image
                                     Grid.Column="1"
                                     HorizontalOptions="End"
                                     Source="ic_chevron_right">
-                                </Image>
-                            </Grid>
+                                    </Image>
+                                </Grid>
+                            </Frame>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

@@ -9,7 +9,13 @@ namespace Paises.ViewModels
             get;
             set;
         }
-        public PaisesViewModel Pais
+        public PaisesViewModel Paises
+        {
+            get;
+            set;
+        }
+
+        public PaisViewModel Pais
         {
             get;
             set;

@@ -97,7 +97,7 @@ namespace Paises.ViewModels
             this.Email = string.Empty;
             this.Password = string.Empty;
 
-            MainViewModel.GetInstance().Pais = new PaisesViewModel();
+            MainViewModel.GetInstance().Paises = new PaisesViewModel();
             await Application.Current.MainPage.Navigation.PushAsync(new PaisesPage());
         }
 

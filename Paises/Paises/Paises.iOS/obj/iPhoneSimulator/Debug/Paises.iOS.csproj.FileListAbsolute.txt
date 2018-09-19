@@ -1,5 +1,16 @@
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Paises.iOS.exe
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Paises.iOS.pdb
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\CommonServiceLocator.dll
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.dll
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.pdb
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.Abstractions.dll
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.Abstractions.pdb
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.dll
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.pdb
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paises.View.PaisPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             Title="Pais">
+    <ContentPage.Content>
+        <ScrollView
+            BindingContext="{Binding Pais}">
+            <StackLayout
+                Padding="5">
+                <Label
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    Text="{Binding Pais.Name}"
+                    TextColor="Black">
+                </Label>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
