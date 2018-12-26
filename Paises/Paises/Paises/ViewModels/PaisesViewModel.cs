@@ -110,7 +110,7 @@ namespace Paises.ViewModels
             Capital=l.Capital,
             Cioc=l.Cioc,
             Currencies=l.Currencies,
-            demonym=l.demonym,
+            Demonym=l.Demonym,
             Flag=l.Flag,
             Gini=l.Gini,
             Languages=l.Languages,

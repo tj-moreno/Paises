@@ -341,10 +341,11 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -369,15 +370,15 @@
       ]
     },
     "Xam.Plugin.Connectivity/3.2.0": {
-      "sha512": "ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
+      "sha512": "V0IKUjLnWO4zl1VI/7Keclez5kk21PIpVUqacbMtbl1Ky7PrUNUOrO8Xmfrxn5E38ihzrmgGpuC6TXCwL3Sl+Q==",
       "type": "package",
       "path": "xam.plugin.connectivity/3.2.0",
       "files": [
+        ".signature.p7s",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
         "lib/MonoAndroid10/Plugin.Connectivity.dll",
-        "lib/MonoAndroid10/Plugin.Connectivity.dll.mdb",
         "lib/MonoAndroid10/Plugin.Connectivity.pdb",
         "lib/MonoAndroid10/Plugin.Connectivity.xml",
         "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
@@ -435,7 +436,7 @@
       ]
     },
     "Xamarin.Forms/3.0.0.561731": {
-      "sha512": "ZnpuSybty6uZsgInJQD2QoYsjsdzPmu25EltSNJTnwgiQCW0MVZfwU6//jbt4Sf0ZfAiryi8MZFhU1I0NAP6Ew==",
+      "sha512": "uKorNXBfCWZLMzGgGTGGqL0Xnf/svKTICeAvFCUBWoESC0QV1J1mthtHcayiGZM8WzBKHDJpJarVAR7INdnheg==",
       "type": "package",
       "path": "xamarin.forms/3.0.0.561731",
       "files": [
@@ -467,13 +468,11 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -601,11 +600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\JM\\Proyectos\\ProyectoPaises\\Paises\\Paises\\Paises\\Paises.csproj",
+      "projectUniqueName": "C:\\JM\\Proyectos\\ProyectoPaises\\Paises\\Paises\\Paises\\Paises.csproj",
       "projectName": "Paises",
-      "projectPath": "D:\\JM\\Proyectos\\ProyectoPaises\\Paises\\Paises\\Paises\\Paises.csproj",
+      "projectPath": "C:\\JM\\Proyectos\\ProyectoPaises\\Paises\\Paises\\Paises\\Paises.csproj",
       "packagesPath": "C:\\Users\\jose.moreno\\.nuget\\packages\\",
-      "outputPath": "D:\\JM\\Proyectos\\ProyectoPaises\\Paises\\Paises\\Paises\\obj\\",
+      "outputPath": "C:\\JM\\Proyectos\\ProyectoPaises\\Paises\\Paises\\Paises\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

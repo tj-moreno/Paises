@@ -6,10 +6,15 @@ D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\App
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\LoginPage.xaml.g.cs
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\PaisesPage.xaml.g.cs
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\PaisPage.xaml.g.cs
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.csproj.CoreCompileInputs.cache
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.AssemblyInfoInputs.cache
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.AssemblyInfo.cs
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\XamlC.stamp
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.dll
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\Paises.pdb
-D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\PaisPage.xaml.g.cs
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\BordersPage.xaml.g.cs
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\CurrenciesPage.xaml.g.cs
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\LanguagesPage.xaml.g.cs
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\PaisTabbedPage.xaml.g.cs
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises\obj\Debug\netstandard2.0\View\TranslationsPage.xaml.g.cs

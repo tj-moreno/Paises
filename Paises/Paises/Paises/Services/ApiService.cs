@@ -85,7 +85,7 @@ namespace Paises.Services
                 }
 
                 var result = await response.Content.ReadAsStringAsync();
-                var model = JsonConvert.DeserializeObject<T>(result);
+                var model = JsonConvert.DeserializeObject<T>(result);                
                 return new Response
                 {
                     IsSurccess = true,

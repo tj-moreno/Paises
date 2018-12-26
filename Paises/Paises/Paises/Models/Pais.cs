@@ -40,7 +40,7 @@ namespace Paises.Models
         public List<double> Latlng { get; set; }
 
         [JsonProperty(PropertyName = "demonym")]
-        public string demonym { get; set; }
+        public string Demonym { get; set; }
 
         [JsonProperty(PropertyName = "area")]
         public double? Area { get; set; }

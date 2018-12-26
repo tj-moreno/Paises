@@ -123,6 +123,11 @@ D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroi
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\res\drawable\ic_attach_money.png
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\res\drawable\ic_chat.png
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\res\drawable\ic_perm_device_information.png
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\res\drawable\ic_record_voice_over.png
+D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\res\drawable\ic_zoom_out_map.png
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\bin\Debug\Paises.Android.dll
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\linksrc\Paises.pdb
 D:\JM\Proyectos\ProyectoPaises\Paises\Paises\Paises.Android\obj\Debug\MonoAndroid81\linksrc\Paises.Android.dll.mdb

@@ -2366,14 +2366,20 @@ namespace Paises.Droid
 			// aapt resource value: 0x7F010002
 			public const int Facebook_Logo = 2130771970;
 			
+			// aapt resource value: 0x7F010003
+			public const int ic_attach_money = 2130771971;
+			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
 			
 			// aapt resource value: 0x7F090055
 			public const int ic_audiotrack_light = 2131296341;
 			
-			// aapt resource value: 0x7F010003
-			public const int ic_chevron_right = 2130771971;
+			// aapt resource value: 0x7F010004
+			public const int ic_chat = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int ic_chevron_right = 2130771973;
 			
 			// aapt resource value: 0x7F090056
 			public const int ic_dialog_close_dark = 2131296342;
@@ -2882,6 +2888,12 @@ namespace Paises.Droid
 			// aapt resource value: 0x7F0900FE
 			public const int ic_mr_button_grey = 2131296510;
 			
+			// aapt resource value: 0x7F010006
+			public const int ic_perm_device_information = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int ic_record_voice_over = 2130771975;
+			
 			// aapt resource value: 0x7F0900FF
 			public const int ic_vol_type_speaker_dark = 2131296511;
 			
@@ -2900,8 +2912,11 @@ namespace Paises.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010004
-			public const int Instagram_Logo = 2130771972;
+			// aapt resource value: 0x7F010008
+			public const int ic_zoom_out_map = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int Instagram_Logo = 2130771977;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -3002,8 +3017,8 @@ namespace Paises.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010005
-			public const int Onu = 2130771973;
+			// aapt resource value: 0x7F010010
+			public const int Onu = 2130771984;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3011,8 +3026,8 @@ namespace Paises.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010006
-			public const int Twitter_Logo = 2130771974;
+			// aapt resource value: 0x7F010011
+			public const int Twitter_Logo = 2130771985;
 			
 			static Drawable()
 			{
